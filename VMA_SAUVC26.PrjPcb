@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GWITHFLW
 
 [Document5]
-DocumentPath=MCU.Harness
+DocumentPath=Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=Connectors.Harness
+DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
