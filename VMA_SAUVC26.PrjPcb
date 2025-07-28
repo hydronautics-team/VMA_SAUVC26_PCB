@@ -56,23 +56,6 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=..\Hydrolib\Hydrolib.DbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -89,7 +72,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EZLEHJRE
 
-[Document3]
+[Document2]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -106,7 +89,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MVGXCWZZ
 
-[Document4]
+[Document3]
 DocumentPath=PCB1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,8 +106,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GWITHFLW
 
-[Document5]
+[Document4]
 DocumentPath=Connectors.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -141,57 +141,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document6]
-DocumentPath=MCU.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=Connectors.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document8]
-DocumentPath=MCU.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document9]
 DocumentPath=HydroJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -208,7 +157,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document7]
 DocumentPath=PCB1_assembly.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -225,7 +174,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RTZFDJLC
 
-[Document11]
+[Document8]
 DocumentPath=PCB1_fabrication.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -242,7 +191,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QMMOOJEW
 
-[Document12]
+[Document9]
 DocumentPath=VMA_SAUVC26.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,32 +221,32 @@ DocumentPath=Project Outputs for VMA_SAUVC26\Design Rule Check - PCB1.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=01
+Name=CheckedBy
+Value=Карманов С
 
 [Parameter2]
-Name=Title
-Value=Плата ВМА
+Name=Decimal_Number_PCB
+Value=ГИДР.123456.012
 
 [Parameter3]
-Name=Release_Date
-Value=29.07.2025
+Name=Decimal_Number_Shematic
+Value=ГИДР.123456.013
 
 [Parameter4]
 Name=DrawnBy
 Value=Михайловский Г.
 
 [Parameter5]
-Name=Decimal_Number_Shematic
-Value=ГИДР.123456.013
+Name=Release_Date
+Value=29.07.2025
 
 [Parameter6]
-Name=Decimal_Number_PCB
-Value=ГИДР.123456.012
+Name=Title
+Value=Плата ВМА
 
 [Parameter7]
-Name=CheckedBy
-Value=Карманов С
+Name=Version
+Value=01
 
 [Configuration1]
 Name=Sources
