@@ -1,16 +1,16 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: PCB1.PcbDoc   29.07.2025  1:38:54
+NCDrill File Report For: VMA_SAUVC26.PcbDoc   14.09.2025  14:24:55
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer 1 to Bottom Layer 1
-ASCII RoundHoles File : PCB1.TXT
+ASCII RoundHoles File : VMA_SAUVC26.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             132       PTH        294.77mm (11.61inch)
-T2      1mm (39mil)                                               Round             6         PTH        12.70mm (0.50inch)
-T3      2.3mm (91mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T1      0.3mm (12mil)                                             Round             177       PTH        516.51mm (20.34inch)
+T2      1mm (39mil)                                               Round             6         PTH        17.78mm (0.70inch)
+T3      2.2mm (87mil)                                             Round             4         NPTH       117.00mm (4.61inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              139
+Totals                                                                              187
 
 Total Processing Time (hh:mm:ss) : 00:00:00
