@@ -21,7 +21,7 @@ TargetOutputMedium=Mechanical models
 VariantName=01
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Canon G3010 series
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -110,23 +110,21 @@ PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration4_Name1=ColumnNameFormat
 Configuration4_Item1=CaptionAsName
 Configuration4_Name2=General
-Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration4_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\1\Desktop\Ïëàòû\Hydrolib\Templates\BOM ÅÑÊÄ.xls|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration4_Name3=GroupOrder
 Configuration4_Item3=
-Configuration4_Name4=SortOrder
-Configuration4_Item4=Description=Up|Designator=Up
-Configuration4_Name5=VisibleOrder
-Configuration4_Item5=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
-Configuration4_Name6=VisibleOrder_Base
-Configuration4_Item6=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
-Configuration4_Name7=VisibleOrder_Consolidated
-Configuration4_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114|Quantity@01=100|Price@01=100
-Configuration4_Name8=VisibleOrder_Flat
-Configuration4_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
+Configuration4_Name4=VisibleOrder
+Configuration4_Item4=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114|Fitted=100
+Configuration4_Name5=VisibleOrder_Base
+Configuration4_Item5=Line #=52|Comment=135|Description=100|Designator=79|Quantity=64|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114|Fitted=100
+Configuration4_Name6=VisibleOrder_Consolidated
+Configuration4_Item6=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114|Quantity@01=100|Price@01=100
+Configuration4_Name7=VisibleOrder_Flat
+Configuration4_Item7=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=97|Manufacturer Part Number 1=161|Manufacturer Lifecycle 1=141|Supplier 1=71|Supplier Part Number 1=135|Supplier Unit Price 1=121|Supplier Subtotal 1=114
 OutputType5=PDF3D
 OutputName5=PDF3D
 OutputCategory5=Documentation
-OutputDocumentPath5=PCB1.PcbDoc
+OutputDocumentPath5=VMA_SAUVC26.PcbDoc
 OutputVariantName5=
 OutputEnabled5=0
 OutputEnabled5_OutputMedium1=0
@@ -144,7 +142,7 @@ Configuration5_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|S
 OutputType6=Gerber
 OutputName6=Gerber Files
 OutputCategory6=Fabrication
-OutputDocumentPath6=PCB1.PcbDoc
+OutputDocumentPath6=VMA_SAUVC26.PcbDoc
 OutputVariantName6=
 OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
@@ -161,7 +159,7 @@ Configuration6_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayer
 OutputType7=NC Drill
 OutputName7=NC Drill Files
 OutputCategory7=Fabrication
-OutputDocumentPath7=PCB1.PcbDoc
+OutputDocumentPath7=VMA_SAUVC26.PcbDoc
 OutputVariantName7=
 OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
@@ -178,7 +176,7 @@ Configuration7_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 OutputType8=ExportSTEP
 OutputName8=Export STEP
 OutputCategory8=Export
-OutputDocumentPath8=PCB1.PcbDoc
+OutputDocumentPath8=VMA_SAUVC26.PcbDoc
 OutputVariantName8=
 OutputEnabled8=1
 OutputEnabled8_OutputMedium1=0
@@ -195,7 +193,7 @@ Configuration8_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModels
 OutputType9=AutoCAD dwg/dxf PCB
 OutputName9=AutoCAD dwg/dxf File PCB
 OutputCategory9=Export
-OutputDocumentPath9=PCB1.PcbDoc
+OutputDocumentPath9=VMA_SAUVC26.PcbDoc
 OutputVariantName9=
 OutputEnabled9=1
 OutputEnabled9_OutputMedium1=0
@@ -212,7 +210,7 @@ Configuration9_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|C
 OutputType10=ExportPARASOLID
 OutputName10=Export PARASOLID
 OutputCategory10=Export
-OutputDocumentPath10=PCB1.PcbDoc
+OutputDocumentPath10=VMA_SAUVC26.PcbDoc
 OutputVariantName10=
 OutputEnabled10=1
 OutputEnabled10_OutputMedium1=0
