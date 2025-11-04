@@ -309,7 +309,7 @@ UniqueId=5b728d80-2fdf-4c6e-a12c-23afcd57f3c6
 Description=02
 AllowFabrication=0
 ParameterCount=0
-VariationCount=30
+VariationCount=32
 Variation1=Designator=R12_d1|UniqueId=\1SCJKBYQW\KACOVRLQ|Kind=1|AlternatePart=
 Variation2=Designator=VT2_d1|UniqueId=\1SCJKBYQW\UOGRRVTD|Kind=1|AlternatePart=
 Variation3=Designator=R13_d1|UniqueId=\1SCJKBYQW\HIRLXPOH|Kind=1|AlternatePart=
@@ -340,6 +340,8 @@ Variation27=Designator=R13_d9|UniqueId=\9SCJKBYQW\HIRLXPOH|Kind=1|AlternatePart=
 Variation28=Designator=R12_d10|UniqueId=\10SCJKBYQW\KACOVRLQ|Kind=1|AlternatePart=
 Variation29=Designator=VT2_d10|UniqueId=\10SCJKBYQW\UOGRRVTD|Kind=1|AlternatePart=
 Variation30=Designator=R13_d10|UniqueId=\10SCJKBYQW\HIRLXPOH|Kind=1|AlternatePart=
+Variation31=Designator=DD2|UniqueId=\LNKURWKI\ZTZFMTNB|Kind=1|AlternatePart=
+Variation32=Designator=DD4|UniqueId=\LNKURWKI\FRZBBIIY|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
